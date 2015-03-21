@@ -3,7 +3,7 @@
 This is a project built on top of Baton Rouge's Open Data API.
 It uses a query to find parks with bathrooms.
 
-The results can be sorted according to how close the bathrooms are to a given location or the user's location.
+The results can be sorted according to how close the parks are to a given location or the user's location.
 
 ## Dependencies
 
@@ -54,6 +54,6 @@ BBFBathroomLocator.sharedLocator().findBathroomsNearby(success: { (bathrooms: Ar
 
 ## TODO
 
-- [] Add a demo project
-- [] Setup a podspec
-- [] Cache bathrooms since that data doesn't change regularly
+- [ ] Add a demo project
+- [ ] Setup a podspec
+- [ ] Cache bathrooms since that data doesn't change regularly
