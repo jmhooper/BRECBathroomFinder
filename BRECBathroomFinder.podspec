@@ -9,8 +9,12 @@ Pod::Spec.new do |s|
                   DESC
   s.homepage = "https://github.com/jmhooper/BRECBathroomFinder"
   s.author = { "Jonathan Hooper" => "jon9820@gmail.com"  }
-  s.source = { git: "https://github.com/jmhooper/BRECBathroomFinder", tag: s.version.to_s }
+  s.license = 'MIT'
+  s.source = { git: "https://github.com/jmhooper/BRECBathroomFinder.git", tag: s.version.to_s }
   s.platform = :ios, '8.0'
   s.requires_arc = true
   s.source_files = "BRECBathroomFinder/**/*"
+  s.dependency "AFNetworking", "~> 2.0"
+  s.frameworks = "CoreLocation"
+  s.prefix_header_contents = "#import <AFNetworking/AFNetworking.h>"
 end
