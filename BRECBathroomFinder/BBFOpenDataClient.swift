@@ -8,6 +8,7 @@
 
 import Foundation
 import CoreLocation
+import AFNetworking
 
 let BBFAPIEndPoint = "https://data.brla.gov/resource/phg8-g77c.json?$where=%20restroom%20%3E%200"
 
