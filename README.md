@@ -1,6 +1,6 @@
 # BREC Bathroom Finder
 
-This is a project built on top of Baton Rouge's Open Data API.
+This is a project built on top of [Baton Rouge's Open Data API](https://data.brla.gov/).
 It uses a query to find parks with bathrooms.
 
 The results can be sorted according to how close the parks are to a given location or the user's location.
