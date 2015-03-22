@@ -1,6 +1,6 @@
 # BREC Bathroom Finder
 
-This is a project built on top of Baton Rouge's Open Data API.
+This is a project built on top of [Baton Rouge's Open Data API](https://data.brla.gov/).
 It uses a query to find parks with bathrooms.
 
 The results can be sorted according to how close the parks are to a given location or the user's location.
@@ -12,7 +12,7 @@ This project has 2 dependencies that are not included:
 - [AFNetworking](https://github.com/AFNetworking/AFNetworking)
 - [Core Location Framework](https://developer.apple.com/library/ios/documentation/CoreLocation/Reference/CoreLocation_Framework/)
 
-## Use
+## Setup
 
 1. Install the [AFNetworking](https://github.com/AFNetworking/AFNetworking) dependency
 2. Add the [Core Location](https://developer.apple.com/library/ios/documentation/CoreLocation/Reference/CoreLocation_Framework/) framework to your project
